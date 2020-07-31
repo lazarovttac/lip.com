@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+}
+
+strong {
+  color: #423d80;
+  font-size: 55pt;
+}
+small {
+  font-size: 30pt;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-image: linear-gradient(146.74deg, #e79cc2 0%, #336d88 74.4%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.page {
+  min-width: 250px;
+  padding: 50px 0px;
+
+  width: 80%;
+  /*
+
+  border: 1px dotted white;*/
+}
+
+header {
+  height: 150px;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-logo {
+  align-self: flex-end;
+
+  margin-left: 10px;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50pt;
+}
+
+.welcome {
+  font-weight: 550;
+  font-size: 15pt;
+
+  margin-bottom: -10px;
+}
+
+.menu {
+  width: 70px;
+  height: 70px;
+
+  align-self: center;
+}
+
+.menu img {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main .title {
+  text-align: center;
+}
+
+.main .title h1 {
+  font-size: 30pt;
+  font-weight: 550;
+}
+
+.main .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 35px;
+}
+
+.main .buttons label {
+  color: #423d80;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main .buttons button {
+  margin: 0 20px;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  font-size: 15pt;
+  font-weight: 500;
+
+  width: 110px;
+  height: 45px;
+
+  border-radius: 5px;
+
+  border: none;
+  outline: none;
+
+  transition-duration: 200ms;
+}
+.main .buttons button:hover {
+  /*
+  transform: translateY(-5px);
+  box-shadow: 0 5px 0 0;
+  */
+  transform: scale(1.1);
+}
+.main .buttons button:active {
+  transform: scale(1);
+}
+.sign-up-button {
+  background-color: #e79cc2;
+}
+.log-in-button {
+  background-color: #c6f6be;
+}
+
+footer {
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-media {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.social-media li {
+  float: right;
+}
+
+.social-media li,
+img {
+  width: 60px;
+}
