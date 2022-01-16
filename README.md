@@ -1,3 +1,3 @@
 # lip.com
 
-My first web-site.
+My first website.
